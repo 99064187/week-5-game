@@ -36,10 +36,70 @@ document.write("U bent ouder dan 10<br>");
 
 		  		if(antwoord == 1912){//if ritanic open
 		  			document.write("goed gedaan op 15 april 1912 zonk hij<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?");
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 1
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}//titanic dicht
 
 		  		else{// els titanic open 
 		  			document.write("helaas het antwoord was 1912<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?");    // queen 1
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}// els titanic open 
 		  	}//if provincie dicht	
 
@@ -55,10 +115,70 @@ document.write("U bent ouder dan 10<br>");
 
 		  		if(antwoord == 1912){//if ritanic open
 		  			document.write("goed gedaan op 15 april 1912 zonk hij<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?");    // queen 2
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 3
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 2
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}//titanic dicht
 
 		  		else{// els titanic open 
 		  			document.write("helaas het antwoord was 1912<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?");   // queen 3
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 4
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 5
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}// els titanic open 
 		  		}//if getal dicht
 
@@ -69,10 +189,70 @@ document.write("U bent ouder dan 10<br>");
 
 		  		if(antwoord == 1912){//if ritanic open
 		  			document.write("goed gedaan op 15 april 1912 zonk hij<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?"); //queen 4
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 6
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 7
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}//titanic dicht
 
 		  		else{// els titanic open 
 		  			document.write("helaas het antwoord was 1912<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?"); //queen 5
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 8
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 9
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}// els titanic open 
 		  		} //else dicht getal
 		  	}// provinci dicht
@@ -95,10 +275,70 @@ document.write("U bent ouder dan 10<br>");
 
 		  		if(antwoord == 1912){//if ritanic open
 		  			document.write("goed gedaan op 15 april 1912 zonk hij<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?");  // queen 6
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 10
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 11
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}//titanic dicht
 
 		  		else{// els titanic open 
 		  			document.write("helaas het antwoord was 1912<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?");  //queen 7
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 12
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 13
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}// els titanic open 
 		  		}//if getal dicht
 
@@ -109,10 +349,70 @@ document.write("U bent ouder dan 10<br>");
 
 		  		if(antwoord == 1912){//if ritanic open
 		  			document.write("goed gedaan op 15 april 1912 zonk hij<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?");  // queen 8
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 14
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 15
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}//titanic dicht
 
 		  		else{// els titanic open 
 		  			document.write("helaas het antwoord was 1912<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?"); // queen 9
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 16
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 17
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}// els titanic open 
 		  		} //else dicht getal
 		  	}//if provincie dicht	
@@ -129,10 +429,70 @@ document.write("U bent ouder dan 10<br>");
 
 		  		if(antwoord == 1912){//if ritanic open
 		  			document.write("goed gedaan op 15 april 1912 zonk hij<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?"); // queen 9
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 18
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 19
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}//titanic dicht
 
 		  		else{// els titanic open 
 		  			document.write("helaas het antwoord was 1912<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?"); // queen 10
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 20
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 21
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}// els titanic open 
 		  		}//if getal dicht
 
@@ -143,10 +503,60 @@ document.write("U bent ouder dan 10<br>");
 
 		  		if(antwoord == 1912){//if ritanic open
 		  			document.write("goed gedaan op 15 april 1912 zonk hij<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?"); // 11
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 22
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+		  			}//else queen dicht 
 		  		}//titanic dicht
 
 		  		else{// els titanic open 
 		  			document.write("helaas het antwoord was 1912<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?"); // 12
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 24
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 25
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}// els titanic open 
 		  		} //else dicht getal
 		  	}// provinci dicht
@@ -175,10 +585,70 @@ document.write("U bent ouder dan 10<br>");
 
 		  		if(antwoord == 1912){//if ritanic open
 		  			document.write("goed gedaan op 15 april 1912 zonk hij<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?"); // queen 13
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 26
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 27
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}//titanic dicht
 
 		  		else{// els titanic open 
 		  			document.write("helaas het antwoord was 1912<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?"); // queen 14
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 28
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 29
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}// els titanic open 
 		  		}//if getal dicht
 
@@ -189,10 +659,70 @@ document.write("U bent ouder dan 10<br>");
 
 		  		if(antwoord == 1912){//if ritanic open
 		  			document.write("goed gedaan op 15 april 1912 zonk hij<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?"); // 14
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 30
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek 31
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}//titanic dicht
 
 		  		else{// els titanic open 
 		  			document.write("helaas het antwoord was 1912<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?"); //15
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}// els titanic open 
 		  		} //else dicht getal
 		  	}//if provincie dicht	
@@ -209,10 +739,70 @@ document.write("U bent ouder dan 10<br>");
 
 		  		if(antwoord == 1912){//if ritanic open
 		  			document.write("goed gedaan op 15 april 1912 zonk hij<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?"); // 16
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}//titanic dicht
 
 		  		else{// els titanic open 
 		  			document.write("helaas het antwoord was 1912<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?"); // 17
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}// els titanic open 
 		  		}//if getal dicht
 
@@ -223,10 +813,70 @@ document.write("U bent ouder dan 10<br>");
 
 		  		if(antwoord == 1912){//if ritanic open
 		  			document.write("goed gedaan op 15 april 1912 zonk hij<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?");
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}//titanic dicht
 
 		  		else{// els titanic open 
 		  			document.write("helaas het antwoord was 1912<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?");
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}// els titanic open 
 		  		} //else dicht getal
 		  	}// provinci dicht										//1
@@ -249,10 +899,70 @@ document.write("U bent ouder dan 10<br>");
 
 		  		if(antwoord == 1912){//if ritanic open
 		  			document.write("goed gedaan op 15 april 1912 zonk hij<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?");
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}//titanic dicht
 
 		  		else{// els titanic open 
 		  			document.write("helaas het antwoord was 1912<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?");
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}// els titanic open 
 		  		}//if getal dicht
 
@@ -263,10 +973,70 @@ document.write("U bent ouder dan 10<br>");
 
 		  		if(antwoord == 1912){//if ritanic open
 		  			document.write("goed gedaan op 15 april 1912 zonk hij<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?");
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}//titanic dicht
 
 		  		else{// els titanic open 
 		  			document.write("helaas het antwoord was 1912<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?");
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}// els titanic open 
 		  		} //else dicht getal
 		  	}//if provincie dicht	
@@ -283,10 +1053,69 @@ document.write("U bent ouder dan 10<br>");
 
 		  		if(antwoord == 1912){//if ritanic open
 		  			document.write("goed gedaan op 15 april 1912 zonk hij<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?");
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}//titanic dicht
 
 		  		else{// els titanic open 
 		  			document.write("helaas het antwoord was 1912<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?");
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}// els titanic open 
 		  		}//if getal dicht
 
@@ -297,10 +1126,70 @@ document.write("U bent ouder dan 10<br>");
 
 		  		if(antwoord == 1912){//if ritanic open
 		  			document.write("goed gedaan op 15 april 1912 zonk hij<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?");
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}//titanic dicht
 
 		  		else{// els titanic open 
 		  			document.write("helaas het antwoord was 1912<br>")
+
+		  			antwoord= prompt("Hoeveel kinderen heeft Queen Victoria gehad?");
+
+		  			if(antwoord == 9){// queen if open
+		  				document.write("goed gedaan queen victoria had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}// queen if dicht 
+
+		  			else{//else queen open
+		  				document.write("helaas ze had 9 kinderen")
+
+		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
+
+		  				if(antwoord == 'handoek'){
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  				}
+
+		  				else{
+		  					document.write("<br>het antwoord was een handoek<br>")
+		  				}
+		  			}//else queen dicht 
 		  		}// els titanic open 
 		  		} //else dicht getal
 		  	}// provinci dicht										//3
