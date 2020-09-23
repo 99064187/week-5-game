@@ -1,11 +1,19 @@
 var antwoord;
+var naam;
+var leeftijd
 
 alert("welkom bij ingomar's quiz doe goed je best.");
 
-antwoord = prompt("hoe oud ben je ?");
+var naam=prompt("wat is uw naam ?")
+document.write(naam + "<br>");
 
-if(antwoord >= 10){//if 1 open 
-document.write("U bent ouder dan 10<br>");
+var leeftijd=prompt("wat is uw leeftijd ?")
+document.write( leeftijd+"-jaar oud <br>");
+
+//antwoord = prompt("hoe oud ben je ?");
+
+/*if(antwoord >= 10){//if 1 open 
+document.write("U bent ouder dan 10<br>");*/
 
 	antwoord = prompt("aan hoeveel meren grenst Almeren?");
 
@@ -45,12 +53,35 @@ document.write("U bent ouder dan 10<br>");
 		  				antwoord= prompt("wat word netter, narmaten het meer droogt?")         // handoek
 
 		  				if(antwoord == 'handoek'){
-		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
-		  				}
+		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>") 
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
+			  				}
+		  				
 
 		  				else{
-		  					document.write("<br>het antwoord was een handoek<br>")
+		  					document.write("<br>het antwoord was een handoek<br>");
+		  					antwoord= prompt("wat is X waard in het romeins?");			// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
+		  			
 		  			}// queen if dicht 
 
 		  			else{//else queen open
@@ -60,10 +91,32 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?");        // x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
+
 		  				}
 		  			}//else queen dicht 
 		  		}//titanic dicht
@@ -80,10 +133,32 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -94,10 +169,32 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}// els titanic open 
@@ -125,10 +222,32 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -139,10 +258,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}//titanic dicht
@@ -159,10 +298,32 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -173,10 +334,32 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}// els titanic open 
@@ -199,10 +382,32 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -213,10 +418,32 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}//titanic dicht
@@ -233,10 +460,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -247,10 +494,32 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}// els titanic open 
@@ -285,10 +554,32 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -299,10 +590,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}//titanic dicht
@@ -319,10 +630,31 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -333,10 +665,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}// els titanic open 
@@ -359,10 +711,31 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -373,10 +746,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}//titanic dicht
@@ -393,10 +786,32 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -407,10 +822,31 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}// els titanic open 
@@ -439,10 +875,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -453,10 +909,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}//titanic dicht
@@ -473,10 +949,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -487,10 +983,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}// els titanic open 
@@ -513,10 +1029,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -537,10 +1073,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -551,10 +1107,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}// els titanic open 
@@ -595,10 +1171,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -609,10 +1205,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}//titanic dicht
@@ -629,10 +1245,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -643,10 +1279,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}// els titanic open 
@@ -669,10 +1325,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -683,10 +1359,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}//titanic dicht
@@ -703,10 +1399,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -717,10 +1433,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}// els titanic open 
@@ -749,10 +1485,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -763,10 +1519,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}//titanic dicht
@@ -783,10 +1559,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -797,10 +1593,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}// els titanic open 
@@ -823,10 +1639,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -837,10 +1673,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}//titanic dicht
@@ -857,10 +1713,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -871,10 +1747,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}// els titanic open 
@@ -909,10 +1805,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -923,10 +1839,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}//titanic dicht
@@ -943,10 +1879,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -957,10 +1913,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}// els titanic open 
@@ -983,10 +1959,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -997,10 +1993,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}//titanic dicht
@@ -1017,6 +2033,16 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
@@ -1031,10 +2057,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}// els titanic open 
@@ -1063,10 +2109,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -1077,10 +2143,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}//titanic dicht
@@ -1097,10 +2183,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -1110,10 +2216,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}// els titanic open 
@@ -1136,10 +2262,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}// queen if dicht 
 
@@ -1150,10 +2296,30 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 		  			}//else queen dicht 
 		  		}//titanic dicht
@@ -1170,10 +2336,29 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
+
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
 		  				}
 		  			}// queen if dicht 
 
@@ -1184,10 +2369,28 @@ document.write("U bent ouder dan 10<br>");
 
 		  				if(antwoord == 'handoek'){
 		  					document.write("<br>goed gedaan een handoek word natter narmaten het meer droogt!<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
 		  				}
 
 		  				else{
 		  					document.write("<br>het antwoord was een handoek<br>")
+		  					antwoord= prompt("wat is X waard in het romeins?"); 				// x
+
+		  					if(antwoord== 1000){//if x open
+		  						document.write("goed");
+		  					}// if x dicht
+
+		  					else{ //else x open
+		  						document.write("fout");
+		  					}//else x dicht
 		  				}
 		  			}//else queen dicht 
 		  		}// els titanic open 
@@ -1195,13 +2398,13 @@ document.write("U bent ouder dan 10<br>");
 		  	}// provinci dicht										//3
 		} // else staten dicht
 	}//else 2 dicht 
-}//if 1 dicht 
+//}//if 1 dicht 
 
 
 
 
 
-else{//else 1 open
+/*else{//else 1 open
 document.write("u bent jonger dan 10<br>");
 
 	antwoord = prompt("1+0=")
@@ -1213,7 +2416,7 @@ document.write("u bent jonger dan 10<br>");
 	else{//else 1 else 1 open
 		document.write("helaas<br>")
 	}// else 1 else 1 dicht 
-}//else 1 dicht 
+}//else 1 dicht */
 
 
 
